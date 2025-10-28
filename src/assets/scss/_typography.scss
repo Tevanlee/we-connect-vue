@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+body {
+  font-family: var(--primary-font);
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span {
+  margin: 0;
+  line-height: 1;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 400;
+  transition: 0.2s;
+
+  &:hover {
+    transition: 0.2s;
+    color: var(--primary);
+  }
+}
